@@ -1,0 +1,1 @@
+docker run -ti --volume-driver=nfs -v gcrnfsw2-tts.redmond.corp.microsoft.com/tts_intern_experiment:/teamscratch/tts_intern_experiment -p 6006:6006 -p 2022:2022 -p 2222:2222 -p 2223:2223 gcrmembers.azurecr.io/shujliu/espnet-py27-img /bin/bash
